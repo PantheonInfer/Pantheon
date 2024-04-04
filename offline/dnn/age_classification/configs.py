@@ -1,0 +1,2 @@
+INPUT_SHAPE = [3, 64, 64]
+NUM_CLASSES = 8

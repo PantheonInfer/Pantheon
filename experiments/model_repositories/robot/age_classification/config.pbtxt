@@ -1,0 +1,78 @@
+name: "age_classification"
+dims: 1
+dims: 3
+dims: 64
+dims: 64
+block_profile {
+  latency: 288
+}
+block_profile {
+  id: 1
+  latency: 297
+}
+block_profile {
+  id: 2
+  latency: 292
+}
+block_profile {
+  id: 3
+  latency: 297
+}
+block_profile {
+  id: 4
+  latency: 387
+}
+block_profile {
+  id: 5
+  latency: 383
+}
+block_profile {
+  id: 6
+  latency: 380
+}
+block_profile {
+  id: 7
+  latency: 377
+}
+block_profile {
+  id: 8
+  latency: 820
+}
+block_profile {
+  id: 9
+  latency: 771
+}
+block_profile {
+  id: 10
+  latency: 759
+}
+block_profile {
+  id: 11
+  latency: 756
+}
+block_profile {
+  id: 12
+  latency: 749
+}
+block_profile {
+  id: 13
+  latency: 754
+}
+block_profile {
+  id: 14
+  latency: 2031
+}
+block_profile {
+  id: 15
+  latency: 2337
+}
+exit_profile {
+  id: 14
+  latency: 991
+  accuracy: 0.7124256
+}
+exit_profile {
+  id: 15
+  latency: 991
+  accuracy: 0.71744794
+}

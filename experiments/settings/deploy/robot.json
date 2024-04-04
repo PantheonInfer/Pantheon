@@ -1,0 +1,15 @@
+{
+  "face_detection": {
+    "max_delta_accuracy": 0.01
+  },
+  "age_classification": {
+    "max_delta_accuracy": 0.01
+  },
+  "gender_classification": {
+    "max_delta_accuracy": 0.01
+  },
+  "emotion_classification": {
+    "max_delta_accuracy": 0.01
+  },
+  "max_memory": 296
+}

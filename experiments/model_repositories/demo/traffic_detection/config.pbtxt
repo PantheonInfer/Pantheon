@@ -1,0 +1,105 @@
+name: "traffic_detection"
+dims: 1
+dims: 3
+dims: 300
+dims: 300
+block_profile {
+  latency: 518
+}
+block_profile {
+  id: 1
+  latency: 592
+}
+block_profile {
+  id: 2
+  latency: 285
+}
+block_profile {
+  id: 3
+  latency: 1081
+}
+block_profile {
+  id: 4
+  latency: 489
+}
+block_profile {
+  id: 5
+  latency: 175
+}
+block_profile {
+  id: 6
+  latency: 1136
+}
+block_profile {
+  id: 7
+  latency: 478
+}
+block_profile {
+  id: 8
+  latency: 265
+}
+block_profile {
+  id: 9
+  latency: 124
+}
+block_profile {
+  id: 10
+  latency: 559
+}
+block_profile {
+  id: 11
+  latency: 524
+}
+block_profile {
+  id: 12
+  latency: 282
+}
+block_profile {
+  id: 13
+  latency: 135
+}
+block_profile {
+  id: 14
+  latency: 126
+}
+block_profile {
+  id: 15
+  latency: 414
+}
+block_profile {
+  id: 16
+  latency: 413
+}
+block_profile {
+  id: 17
+  latency: 412
+}
+block_profile {
+  id: 18
+  latency: 190
+}
+block_profile {
+  id: 19
+  latency: 166
+}
+block_profile {
+  id: 20
+  latency: 133
+}
+block_profile {
+  id: 21
+  latency: 485
+}
+block_profile {
+  id: 22
+  latency: 481
+}
+block_profile {
+  id: 23
+  latency: 269
+}
+exit_profile {
+  id: 23
+  latency: 6426
+  accuracy: 0.9589267
+}

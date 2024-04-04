@@ -1,0 +1,50 @@
+name: "wildlife_recognition"
+dims: 1
+dims: 3
+dims: 64
+dims: 64
+block_profile {
+  latency: 416
+}
+block_profile {
+  id: 1
+  latency: 2343
+}
+block_profile {
+  id: 2
+  latency: 4534
+}
+block_profile {
+  id: 3
+  latency: 1606
+}
+block_profile {
+  id: 4
+  latency: 1806
+}
+block_profile {
+  id: 5
+  latency: 1740
+}
+block_profile {
+  id: 6
+  latency: 1989
+}
+block_profile {
+  id: 7
+  latency: 2739
+}
+block_profile {
+  id: 8
+  latency: 1257
+}
+exit_profile {
+  id: 4
+  latency: 1810
+  accuracy: 0.8769084
+}
+exit_profile {
+  id: 8
+  latency: 1941
+  accuracy: 0.8869275
+}

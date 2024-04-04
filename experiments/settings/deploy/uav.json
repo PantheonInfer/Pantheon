@@ -1,0 +1,12 @@
+{
+  "wildfire_detection": {
+    "max_delta_accuracy": 0.02
+  },
+  "scene_recognition": {
+    "max_delta_accuracy": 0.02
+  },
+  "wildlife_recognition": {
+    "max_delta_accuracy": 0.02
+  },
+  "max_memory": 92
+}

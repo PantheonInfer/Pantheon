@@ -1,0 +1,50 @@
+name: "scene_recognition"
+dims: 1
+dims: 1
+dims: 128
+dims: 128
+block_profile {
+  latency: 862
+}
+block_profile {
+  id: 1
+  latency: 710
+}
+block_profile {
+  id: 2
+  latency: 715
+}
+block_profile {
+  id: 3
+  latency: 856
+}
+block_profile {
+  id: 4
+  latency: 711
+}
+block_profile {
+  id: 5
+  latency: 959
+}
+block_profile {
+  id: 6
+  latency: 929
+}
+block_profile {
+  id: 7
+  latency: 2025
+}
+block_profile {
+  id: 8
+  latency: 2314
+}
+exit_profile {
+  id: 6
+  latency: 1044
+  accuracy: 0.8125
+}
+exit_profile {
+  id: 8
+  latency: 82
+  accuracy: 0.8179687
+}

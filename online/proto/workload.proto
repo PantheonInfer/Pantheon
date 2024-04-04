@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+message Workloads {
+  repeated Workload workload = 1;
+}
+
+message Workload {
+  string model_name = 1;
+  uint64 release = 2;
+  uint64 deadline = 3;
+//  string input = 4;
+  repeated int64 shape = 5;
+  int32 id = 6;
+}

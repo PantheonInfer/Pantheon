@@ -1,0 +1,9 @@
+{
+  "object_detection": {
+    "max_delta_accuracy": 0.01
+  },
+  "sign_recognition": {
+    "max_delta_accuracy": 0.01
+  },
+  "max_memory": 25
+}
