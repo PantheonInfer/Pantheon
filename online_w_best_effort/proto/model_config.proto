@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+
+message ModelBlockProfile {
+  int32 id = 1;
+  // microsecond
+  int64 latency = 2;
+
+  // for exit only
+  float accuracy = 3;
+}
+
+message ModelConfig
+{
+  string name = 1;
+  repeated int64 dims = 2;
+  repeated ModelBlockProfile block_profile = 3;
+  repeated ModelBlockProfile exit_profile = 4;
+}
